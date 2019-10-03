@@ -1,0 +1,54 @@
+{
+	"name" : "b2b2c/shopmg-b2b2c-pc-api",
+	"description" : "多商户PC端微服务系统接口",
+	"type" : "b2b2c",
+	"authors" : [{
+			"name" : "米糕网络团队",
+			"email" : "opjklu@126.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"App\\" : "app",
+			"Tool\\":  "tool",
+			"Algorithm\\":  "third/Algorithm",
+			"Alipay\\" :  "third/Alipay",
+			"Express\\" :  "third/Express",
+			"Sms\\" : "third/Sms",
+			"Wxpay\\" :  "third/Wxpay",
+			"Pay\\" : "pay",
+			"Search\\": "search"
+		}
+	},
+	"keywords" : [
+		"b2b2c",
+		"多商户"
+	],
+	"require" : {
+		"php" : ">=7.1",
+		"ext-swoole" : ">=4.2.8",
+		"swoft/framework" : "^1.0.28",
+		"swoft/redis" : "^1.0.15",
+		"swoft/session" : "^1.0.5",
+		"swoft/websocket-server" : "^1.0.6",
+		"swoft/rpc" : "^1.0",
+		"swoft/service-governance" : "^1.0.2",
+		"swoft/rpc-client" : "1.0.8",
+		"swoft/i18n" : "^1.0",
+		"swoft/task" : "^1.0.5",
+		"swoft/http-message" : "^1.0",
+		"swoft/rpc-server" : "^1.0",
+		"swoft/http-server" : "^1.0",
+		"swoft/memory" : "^1.0.1",
+		"swoft/process" : "^1.0",
+		"swoft/db" : "^1.1",
+		"swoft/cache" : "^1.0",
+		"opjklu/validate" : "^1.0.1",
+		"phpmailer/phpmailer": "^6.0.7"
+	},
+	"scripts" : {
+		"post-root-package-install" : "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+		"test" : "./vendor/bin/phpunit -c phpunit.xml",
+		"cs-fix" : "./vendor/bin/php-cs-fixer fix $1"
+	}
+}

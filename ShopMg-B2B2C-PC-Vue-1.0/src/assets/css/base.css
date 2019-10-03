@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*css 初始化 */
+
+html,
+body {
+    background: #f2f2f2;
+}
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+main,
+header,
+footer {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* font-family: PingFang SC, Droid Sans, Droid Sans Fallback; */
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+    /* letter-spacing: .; */
+    font-weight: normal;
+}
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select,
+input {
+    vertical-align: middle;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+    outline: none
+}
+
+
+/*防止拖动*/
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+
+table {
+    border-collapse: collapse;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+    *zoom: 1;
+    /*IE/7/6*/
+}
+
+.text1-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.text2-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: red;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: red;
+    color: #fff;
+}
+
+.el-select .el-input.is-focus .el-input__inner {
+    border-color: #c0c4cc!important;
+}
+
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+    border-color: #c0c4cc!important;
+}
+
+.el-select-dropdown__item {
+    font-size: 12px!important;
+    height: 30px!important;
+    line-height: 30px!important;
+}
+
+.el-select-dropdown__item.selected {
+    color: red;
+}

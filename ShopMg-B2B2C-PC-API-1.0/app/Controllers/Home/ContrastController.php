@@ -17,7 +17,7 @@ use Tool\AjaxReturn;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="contrast")
+ * @Controller(prefix="/contrast")
  *
  * @author wq
  *

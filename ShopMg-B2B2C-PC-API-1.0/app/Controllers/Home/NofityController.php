@@ -18,7 +18,7 @@ use App\Common\TraitClass\OrderNoticeTrait;
 use Swoft\Http\Server\Bean\Annotation\Controller;
 
 /**
- * @Controller(perfix="/nofity")
+ * @Controller(prefix="/nofity")
  * 商品支付通知
  *
  * @author Administrator

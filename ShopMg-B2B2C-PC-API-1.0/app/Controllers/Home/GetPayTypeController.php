@@ -13,7 +13,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="getPayType")
+ * @Controller(prefix="/getPayType")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

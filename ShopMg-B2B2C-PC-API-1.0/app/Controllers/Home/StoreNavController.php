@@ -14,7 +14,7 @@ use Tool\AjaxReturn;
 
 /**
  * 店铺导航
- * @Controller(perfix="/storeNav")
+ * @Controller(prefix="/storeNav")
  *
  * @author wq
  */

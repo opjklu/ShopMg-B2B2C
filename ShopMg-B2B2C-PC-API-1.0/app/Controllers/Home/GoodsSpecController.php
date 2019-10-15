@@ -17,7 +17,7 @@ use Tool\AjaxReturn;
 
 /**
  * 商品规格控制器
- * @Controller(perfix="/goodsSpec")
+ * @Controller(prefix="/goodsSpec")
  *
  * @author wq
  */

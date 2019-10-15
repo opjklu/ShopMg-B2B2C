@@ -19,7 +19,7 @@ use Tool\SessionManager;
 
 /**
  * 商品立即购买
- * @Controller(perfix="/goodsImmediatePurchase")
+ * @Controller(prefix="/goodsImmediatePurchase")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

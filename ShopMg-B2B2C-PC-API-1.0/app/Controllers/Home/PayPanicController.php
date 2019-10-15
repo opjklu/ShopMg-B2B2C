@@ -17,7 +17,7 @@ use Tool\AjaxReturn;
 use Tool\SessionManager;
 
 /**
- * @Controller(perfix="payPanic")
+ * @Controller(prefix="/payPanic")
  * 订单支付
  *
  * @author Administrator

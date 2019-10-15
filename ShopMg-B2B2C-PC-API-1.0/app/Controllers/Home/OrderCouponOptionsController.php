@@ -16,7 +16,7 @@ use Tool\AjaxReturn;
 use Tool\SessionManager;
 
 /**
- * @Controller(perfix="orderCouponOptions")
+ * @Controller(prefix="/orderCouponOptions")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

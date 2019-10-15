@@ -15,7 +15,7 @@ use Tool\AjaxReturn;
 use Swoft\App;
 
 /**
- * @Controller(perfix="invoiceType")
+ * @Controller(prefix="/invoiceType")
  *
  * @author wq
  *

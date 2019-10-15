@@ -14,7 +14,7 @@ use Tool\SessionManager;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="generatingOrderIntegral")
+ * @Controller(prefix="/generatingOrderIntegral")
  *
  * @author wq
  */

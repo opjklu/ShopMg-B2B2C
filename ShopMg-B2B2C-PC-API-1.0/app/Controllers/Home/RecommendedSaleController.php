@@ -14,7 +14,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="recommendedSale")
+ * @Controller(prefix="/recommendedSale")
  *
  * @author wq
  */

@@ -11,7 +11,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/announcement")
+ * @Controller(prefix="/announcement")
  * 公告控制器
  *
  * @author Administrator

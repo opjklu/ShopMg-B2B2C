@@ -13,7 +13,7 @@ use Tool\AjaxReturn;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="brand")
+ * @Controller(prefix="/brand")
  *
  * @author wq
  *

@@ -16,7 +16,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/floor")
+ * @Controller(prefix="/floor")
  * 首页楼层
  *
  * @author Administrator

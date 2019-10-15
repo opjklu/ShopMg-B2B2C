@@ -16,7 +16,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/goodsSearhByList")
+ * @Controller(prefix="/goodsSearhByList")
  *
  * @author wq
  */

@@ -13,7 +13,7 @@ use Swoft\Bean\Annotation\Number;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="orderInvoice")
+ * @Controller(prefix="/orderInvoice")
  *
  * @author wq
  *

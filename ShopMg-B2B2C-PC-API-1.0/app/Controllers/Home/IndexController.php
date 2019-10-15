@@ -16,7 +16,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMapping;
 use Swoft\Rpc\Client\Bean\Annotation\Reference;
 
 /**
- * @Controller(perfix="/index")
+ * @Controller(prefix="/index")
  * Class IndexController
  */
 class IndexController

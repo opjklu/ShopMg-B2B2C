@@ -22,7 +22,7 @@ use Validate\CheckParam;
 
 /**
  * 购物车
- * @Controller(perfix="goodsCart")
+ * @Controller(prefix="/goodsCart")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class GoodsCartController

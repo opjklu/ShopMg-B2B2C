@@ -36,7 +36,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/cooperativePartner")
+ * @Controller(prefix="/cooperativePartner")
  * 合作伙伴
  *
  * @author Administrator

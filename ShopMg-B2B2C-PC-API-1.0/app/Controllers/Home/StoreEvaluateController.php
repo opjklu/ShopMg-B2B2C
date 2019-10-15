@@ -12,7 +12,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="storeEvaluate")
+ * @Controller(prefix="/storeEvaluate")
  *
  * @author wq
  *

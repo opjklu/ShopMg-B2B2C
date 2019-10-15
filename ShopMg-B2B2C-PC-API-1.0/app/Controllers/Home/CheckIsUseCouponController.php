@@ -35,7 +35,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMapping;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="checkIsUseCoupon")
+ * @Controller(prefix="/checkIsUseCoupon")
  *
  * @author wq
  */

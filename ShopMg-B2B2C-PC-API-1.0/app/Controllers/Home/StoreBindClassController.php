@@ -14,7 +14,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="storeBindClass")
+ * @Controller(prefix="/storeBindClass")
  *
  * @author Administrator
  */

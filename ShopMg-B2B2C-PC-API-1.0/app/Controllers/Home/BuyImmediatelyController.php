@@ -19,7 +19,7 @@ use Tool\AjaxReturn;
 use Tool\SessionManager;
 
 /**
- * @Controller(perfix="buyImmediately")
+ * @Controller(prefix="/buyImmediately")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

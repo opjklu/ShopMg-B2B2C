@@ -15,7 +15,7 @@ use Tool\AjaxReturn;
 
 /**
  * 订单支付
- * @Controller(perfix="payOrder")
+ * @Controller(prefix="/payOrder")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

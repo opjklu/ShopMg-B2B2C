@@ -5,12 +5,13 @@ namespace App\Controllers\Home;
 
 use App\Common\TraitClass\GETConfigTrait;
 use Swoft\Http\Server\Bean\Annotation\Controller;
+use Swoft\Http\Server\Bean\Annotation\RequestMapping;
+use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/intnetInfomartion")
+ * @Controller(prefix="/intnetInfomartion")
  * 网站底部数据
- *
  * @author Administrator
  */
 class IntnetInfomartionController
@@ -19,11 +20,10 @@ class IntnetInfomartionController
 
     /**
      * 关于我们相关
+     * @RequestMapping(route="aboutEtcetera", method=RequestMethod::POST)
      */
     public function aboutEtceteraByShopMGKl(): array
     {
-        $data = $this->getGroupConfig('information_by_intnet');
-
-        return AjaxReturn::sendData($data);
+        return AjaxReturn::sendData($this->getGroupConfig('information_by_intnet'));
     }
 }

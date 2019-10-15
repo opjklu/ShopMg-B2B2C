@@ -21,7 +21,7 @@ use Validate\CheckParam;
 
 /**
  * 积分商品列表
- * @Controller(perfix="integralGoods")
+ * @Controller(prefix="/integralGoods")
  *
  * @author wq
  */

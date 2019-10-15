@@ -20,7 +20,7 @@ use Tool\Tool;
 
 /**
  * 店铺控制器
- * @Controller(perfix="/store")
+ * @Controller(prefix="/store")
  *
  * @author Administrator
  */

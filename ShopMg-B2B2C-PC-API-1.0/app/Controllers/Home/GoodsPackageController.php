@@ -23,7 +23,7 @@ use Tool\SessionManager;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="/goodsPackage")
+ * @Controller(prefix="/goodsPackage")
  *
  * @author Administrator
  */

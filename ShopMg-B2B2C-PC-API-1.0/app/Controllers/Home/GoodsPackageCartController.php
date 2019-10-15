@@ -23,7 +23,7 @@ use Tool\SessionManager;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="goodsPackageCart")
+ * @Controller(prefix="/goodsPackageCart")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

@@ -14,7 +14,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMapping;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/goodsDetail")
+ * @Controller(prefix="/goodsDetail")
  * 商品图文详情
  *
  * @author Administrator

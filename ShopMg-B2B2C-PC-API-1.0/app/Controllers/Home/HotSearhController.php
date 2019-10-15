@@ -14,7 +14,7 @@ use Tool\AjaxReturn;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="hotSearh")
+ * @Controller(prefix="/hotSearh")
  *
  * @author wq
  *

@@ -9,7 +9,7 @@ use Swoft\Http\Server\Bean\Annotation\Controller;
 use Swoft\Http\Server\Bean\Annotation\RequestMapping;
 
 /**
- * @Controller(perfix="/software")
+ * @Controller(prefix="/software")
  *
  * @package App\Controllers\Home
  */

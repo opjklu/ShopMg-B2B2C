@@ -18,7 +18,7 @@ use Tool\AjaxReturn;
 
 /**
  * 积分支付
- * @Controller(perfix="/payOrderByIntegral")
+ * @Controller(prefix="/payOrderByIntegral")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class PayOrderByIntegralController

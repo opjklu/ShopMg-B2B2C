@@ -17,7 +17,7 @@ use Tool\AjaxReturn;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="collection")
+ * @Controller(prefix="/collection")
  * @Middleware(ValidateLoginMiddleware::class)
  * 收藏控制器
  */

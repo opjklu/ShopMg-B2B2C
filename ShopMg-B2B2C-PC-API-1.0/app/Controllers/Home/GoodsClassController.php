@@ -13,7 +13,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/goodsClass")
+ * @Controller(prefix="/goodsClass")
  * 商品分类控制器
  *
  * @author Administrator

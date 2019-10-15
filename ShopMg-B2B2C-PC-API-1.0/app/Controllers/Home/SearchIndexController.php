@@ -15,7 +15,7 @@ use Tool\AjaxReturn;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="/searchIndex")
+ * @Controller(prefix="/searchIndex")
  * 首页搜索
  *
  * @author Administrator

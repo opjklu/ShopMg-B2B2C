@@ -10,7 +10,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/Nav")
+ * @Controller(prefix="/nav")
  *
  * @author Administrator
  */

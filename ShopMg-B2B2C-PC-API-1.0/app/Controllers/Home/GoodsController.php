@@ -45,7 +45,7 @@ use Swoft\Process\ProcessBuilder;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/goods")
+ * @Controller(prefix="/goods")
  * 商品控制器
  */
 class GoodsController

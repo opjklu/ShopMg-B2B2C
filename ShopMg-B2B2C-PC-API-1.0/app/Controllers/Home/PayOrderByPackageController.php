@@ -15,7 +15,7 @@ use Tool\AjaxReturn;
 
 /**
  * 套餐支付控制器
- * @Controller(perfix="/payOrderByPackage")
+ * @Controller(prefix="/payOrderByPackage")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

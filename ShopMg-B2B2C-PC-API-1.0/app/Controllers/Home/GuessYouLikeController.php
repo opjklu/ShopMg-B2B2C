@@ -18,7 +18,7 @@ use Tool\AjaxReturn;
 
 /**
  * 猜你喜欢
- * @Controller(perfix="/guessYouLike")
+ * @Controller(prefix="/guessYouLike")
  *
  * @author Administrator
  */

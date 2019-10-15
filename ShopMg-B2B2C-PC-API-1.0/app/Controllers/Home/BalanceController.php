@@ -13,7 +13,7 @@ use Tool\AjaxReturn;
 use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 
 /**
- * @Controller(prefix="balance")
+ * @Controller(prefix="/balance")
  * @Middleware(ValidateLoginMiddleware::class)
  * 余额控制器
  */

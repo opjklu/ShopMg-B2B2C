@@ -9,7 +9,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMapping;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/homeIndex")
+ * @Controller(prefix="/homeIndex")
  * 首页控制器
  *
  * @author Administrator

@@ -16,7 +16,7 @@ use Swoft\Bean\Annotation\Number;
 use Swoft\App;
 
 /**
- * @Controller(perfix="selfMadeGoods")
+ * @Controller(prefix="/selfMadeGoods")
  *
  * @author wq
  *

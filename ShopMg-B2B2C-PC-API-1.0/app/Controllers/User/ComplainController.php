@@ -20,7 +20,7 @@ use Tool\AjaxReturn;
  *
  * @author wq
  *
- * @Controller(perfix="complain")
+ * @Controller(prefix="/complain")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class ComplainController

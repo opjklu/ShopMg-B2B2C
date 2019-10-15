@@ -45,7 +45,7 @@ use Validate\CheckParam;
 /**
  *
  * @author wq
- * @Controller(perfix="storeInformation")
+ * @Controller(prefix="/storeInformation")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class StoreInformationController

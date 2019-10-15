@@ -46,7 +46,7 @@ use Validate\CheckParam;
  *
  * @author Administrator
  *
- * @Controller(perfix="/commonOrderApplyForAfterSale")
+ * @Controller(prefix="/commonOrderApplyForAfterSale")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class CommonOrderApplyForAfterSaleController

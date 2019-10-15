@@ -16,7 +16,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMethod;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="/couponSend")
+ * @Controller(prefix="/couponSend")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

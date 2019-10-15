@@ -17,7 +17,7 @@ use Tool\AjaxReturn;
  *
  * @author Administrator
  *
- * @Controller(perfix="express")
+ * @Controller(prefix="/express")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class ExpressController

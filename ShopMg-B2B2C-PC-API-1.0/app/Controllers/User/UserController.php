@@ -18,7 +18,7 @@ use Tool\AjaxReturn;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="user")
+ * @Controller(prefix="/user")
  *
  * @author wq
  * @Middleware(ValidateLoginMiddleware::class)

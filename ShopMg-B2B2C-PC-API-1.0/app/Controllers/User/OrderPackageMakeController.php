@@ -20,7 +20,7 @@ use Tool\AjaxReturn;
 
 /**
  * 套餐订单
- * @Controller(perfix="orderPackageMake")
+ * @Controller(prefix="/orderPackageMake")
  * @Middleware(ValidateLoginMiddleware::class)
  * @author Administrator
  */

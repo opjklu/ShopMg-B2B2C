@@ -41,7 +41,7 @@ use Validate\CheckParam;
 
 /**
  * 余额充值
- * @Controller(perfix="recharge")
+ * @Controller(prefix="/recharge")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

@@ -18,7 +18,7 @@ use Validate\CheckParam;
 
 /**
  * 收货地址
- * @Controller(perfix="/userAddress")
+ * @Controller(prefix="/userAddress")
  *
  * @Middleware(ValidateLoginMiddleware::class)
  */

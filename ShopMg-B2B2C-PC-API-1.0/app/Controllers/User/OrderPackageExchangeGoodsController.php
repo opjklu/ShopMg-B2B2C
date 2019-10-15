@@ -20,7 +20,7 @@ use Validate\CheckParam;
 
 /**
  * 套餐订单换货
- * @Controller(perfix="orderPackageExchangeGoods")
+ * @Controller(prefix="/orderPackageExchangeGoods")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class OrderPackageExchangeGoodsController

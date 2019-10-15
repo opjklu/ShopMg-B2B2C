@@ -19,7 +19,7 @@ use Tool\AjaxReturn;
 /**
  * 用户优惠券控制器
  * @author 米糕网络团队
- * @Controller(perfix="couponList")
+ * @Controller(prefix="/couponList")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class CouponListController

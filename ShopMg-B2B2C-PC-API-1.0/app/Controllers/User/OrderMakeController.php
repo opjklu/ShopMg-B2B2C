@@ -20,7 +20,7 @@ use Tool\AjaxReturn;
 
 /**
  * 普通订单列表
- * @Controller(perfix="orderMake")
+ * @Controller(prefix="/orderMake")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

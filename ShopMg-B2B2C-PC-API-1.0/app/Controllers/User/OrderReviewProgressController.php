@@ -20,7 +20,7 @@ use Validate\CheckParam;
  * 【订单】售后查询
  *
  * @author Administrator
- * @Controller(perfix="orderReviewProgress")
+ * @Controller(prefix="/orderReviewProgress")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class OrderReviewProgressController

@@ -17,7 +17,7 @@ use Tool\AjaxReturn;
 
 /**
  * 积分控制器
- * @Controller(perfix="integral")
+ * @Controller(prefix="/integral")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class IntegralController

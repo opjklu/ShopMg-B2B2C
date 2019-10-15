@@ -44,7 +44,7 @@ use App\Common\Aspect\Decorate;
 
 /**
  * 开店回调通知
- * @Controller(perfix="/openShopNofity")
+ * @Controller(prefix="/openShopNofity")
  *
  * @author Administrator
  */

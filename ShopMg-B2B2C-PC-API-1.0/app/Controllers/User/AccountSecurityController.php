@@ -21,7 +21,7 @@ use Validate\CheckParam;
 /**
  * 账户安全
  *
- * @Controller(perfix="accountSecurity")
+ * @Controller(prefix="/accountSecurity")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class AccountSecurityController

@@ -17,7 +17,7 @@ use Tool\AjaxReturn;
  * 用户数据
  *
  * @author wq
- * @Controller(perfix="/userData")
+ * @Controller(prefix="/userData")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class UserDataController

@@ -12,7 +12,7 @@ use Tool\AjaxReturn;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="storeCompanyBankInformation")
+ * @Controller(prefix="/storeCompanyBankInformation")
  *
  * @author wq
  *

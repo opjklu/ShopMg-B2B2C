@@ -19,7 +19,7 @@ use Validate\CheckParam;
  *
  * @author Administrator
  *
- * @Controller(perfix="userHeader")
+ * @Controller(prefix="/userHeader")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class UserHeaderController

@@ -12,7 +12,7 @@ use Tool\AjaxReturn;
 
 /**
  * 店铺级别
- * @Controller(perfix="storeGrade")
+ * @Controller(prefix="/storeGrade")
  *
  * @author wq
  */

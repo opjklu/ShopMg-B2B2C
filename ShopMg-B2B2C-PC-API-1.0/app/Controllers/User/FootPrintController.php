@@ -19,7 +19,7 @@ use Validate\CheckParam;
 
 /**
  * 足迹
- * @Controller(perfix="/footPrint")
+ * @Controller(prefix="/footPrint")
  *
  * @author Administrator
  * @Middleware(ValidateLoginMiddleware::class)

@@ -10,7 +10,7 @@ use Swoft\Http\Server\Bean\Annotation\RequestMapping;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="logOut")
+ * @Controller(prefix="/logOut")
  *
  * @author wq
  * @Middleware(ValidateLoginMiddleware::class)

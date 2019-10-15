@@ -23,7 +23,7 @@ use Validate\CheckParam;
 
 /**
  * 套餐订单退货
- * @Controller(perfix="orderPackageReturnGoods")
+ * @Controller(prefix="/orderPackageReturnGoods")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class OrderPackageReturnGoodsController

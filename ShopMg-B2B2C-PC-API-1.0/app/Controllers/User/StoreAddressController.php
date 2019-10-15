@@ -16,7 +16,7 @@ use Tool\AjaxReturn;
 
 /**
  * 店铺收货地址
- * @Controller(perfix="storeAddress")
+ * @Controller(prefix="/storeAddress")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

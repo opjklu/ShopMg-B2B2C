@@ -20,7 +20,7 @@ use Tool\AjaxReturn;
 
 /**
  * 订单退货
- * @Controller(perfix="orderReturnGoods")
+ * @Controller(prefix="/orderReturnGoods")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

@@ -36,7 +36,7 @@ use Swoft\Http\Server\Bean\Annotation\Controller;
 
 /**
  * 套餐订单商品
- * @Controller(perfix="orderGoods")
+ * @Controller(prefix="/orderGoods")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

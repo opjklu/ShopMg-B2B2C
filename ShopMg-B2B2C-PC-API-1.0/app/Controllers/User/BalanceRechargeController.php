@@ -15,7 +15,7 @@ use Swoft\Http\Server\Bean\Annotation\Controller;
  *
  * @author Administrator
  *
- * @Controller(perfix="balanceRecharge")
+ * @Controller(prefix="/balanceRecharge")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class BalanceRechargeController

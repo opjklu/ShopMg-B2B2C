@@ -20,7 +20,7 @@ use Tool\AjaxReturn;
 
 /**
  * 积分订单
- * @Controller(perfix="/integralOrders")
+ * @Controller(prefix="/integralOrders")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author wq

@@ -14,7 +14,7 @@ use Swoft\Http\Server\Bean\Annotation\Controller;
  * 开店支付查询
  *
  * @author Administrator
- * @Controller(perfix="openStoreSelect")
+ * @Controller(prefix="/openStoreSelect")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class OpenStoreSelectController

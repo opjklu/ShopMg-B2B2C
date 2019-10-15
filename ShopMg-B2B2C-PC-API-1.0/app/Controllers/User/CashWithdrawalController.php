@@ -19,7 +19,7 @@ use Tool\AjaxReturn;
 
 /**
  * 提现
- * @Controller(perfix="cashWithdrawal")
+ * @Controller(prefix="/cashWithdrawal")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

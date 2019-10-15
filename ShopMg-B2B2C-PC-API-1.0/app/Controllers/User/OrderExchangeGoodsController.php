@@ -22,7 +22,7 @@ use Validate\CheckParam;
  *
  * @author Administrator
  *
- * @Controller(perfix="orderExchangeGoods")
+ * @Controller(prefix="/orderExchangeGoods")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class OrderExchangeGoodsController

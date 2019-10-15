@@ -18,7 +18,7 @@ use Validate\CheckParam;
 
 /**
  * 店铺收藏控制器
- * @Controller(perfix="/storeFollow")
+ * @Controller(prefix="/storeFollow")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

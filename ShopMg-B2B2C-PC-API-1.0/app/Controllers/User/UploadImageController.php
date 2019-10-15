@@ -16,7 +16,7 @@ use Tool\CURL;
 use Validate\CheckParam;
 
 /**
- * @Controller(perfix="/uploadImage")
+ * @Controller(prefix="/uploadImage")
  *
  * @author Administrator
  */

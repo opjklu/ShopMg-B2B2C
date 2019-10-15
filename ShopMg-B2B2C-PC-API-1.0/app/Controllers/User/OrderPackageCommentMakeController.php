@@ -34,7 +34,7 @@ use App\Models\Logic\Specific\GoodsImagesLogic;
  *
  * @author Administrator
  *
- * @Controller(perfix="orderPackageCommentMake")
+ * @Controller(prefix="/orderPackageCommentMake")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class OrderPackageCommentMakeController

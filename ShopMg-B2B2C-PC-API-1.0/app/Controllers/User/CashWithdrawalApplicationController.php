@@ -44,7 +44,7 @@ use Validate\CheckParam;
  * 提现申请
  *
  * @author 米糕网络团队
- * @Controller(perfix="cashWithdrawalApplication")
+ * @Controller(prefix="/cashWithdrawalApplication")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class CashWithdrawalApplicationController

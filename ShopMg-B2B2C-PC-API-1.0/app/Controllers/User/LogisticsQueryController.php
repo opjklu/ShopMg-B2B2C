@@ -26,7 +26,7 @@ use Tool\AjaxReturn;
  * 物流查询
  *
  * @author Administrator
- * @Controller(perfix="/logisticsQuery")
+ * @Controller(prefix="/logisticsQuery")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class LogisticsQueryController

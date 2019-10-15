@@ -14,7 +14,7 @@ use Swoft\Bean\Annotation\Number;
 use Tool\AjaxReturn;
 
 /**
- * @Controller(perfix="news")
+ * @Controller(prefix="/news")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class NewsController

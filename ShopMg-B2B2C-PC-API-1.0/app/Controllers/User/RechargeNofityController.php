@@ -25,7 +25,7 @@ use Tool\Hook;
 use App\Common\Aspect\Decorate;
 
 /**
- * @Controller(perfix="/rechargeNofity")
+ * @Controller(prefix="/rechargeNofity")
  *
  * @author wq
  */

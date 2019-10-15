@@ -19,7 +19,7 @@ use Tool\AjaxReturn;
  * 余额记录
  *
  * @author Administrator
- * @Controller(perfix="balanceRecord")
+ * @Controller(prefix="/balanceRecord")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class BalanceRecordController

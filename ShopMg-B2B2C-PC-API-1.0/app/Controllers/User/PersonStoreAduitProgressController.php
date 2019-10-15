@@ -40,7 +40,7 @@ use Tool\AjaxReturn;
  * 待审核店铺(个人)
  *
  * @author Administrator
- * @Controller(perfix="personStoreAduitProgress")
+ * @Controller(prefix="/personStoreAduitProgress")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class PersonStoreAduitProgressController

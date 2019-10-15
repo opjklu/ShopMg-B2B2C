@@ -16,7 +16,7 @@ use Tool\AjaxReturn;
 /**
  *
  * @author wq
- * @Controller(perfix="userLevel")
+ * @Controller(prefix="/userLevel")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class UserLevelController

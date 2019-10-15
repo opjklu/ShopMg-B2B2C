@@ -21,7 +21,7 @@ use Validate\CheckParam;
 /**
  *
  * @author wq
- * @Controller(perfix="collection")
+ * @Controller(prefix="/collection")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class CollectionController

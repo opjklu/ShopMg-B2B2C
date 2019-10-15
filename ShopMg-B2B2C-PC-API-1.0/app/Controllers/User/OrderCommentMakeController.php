@@ -22,7 +22,7 @@ use Tool\AjaxReturn;
 
 /**
  * 订单评价
- * @Controller(perfix="/orderCommentMake")
+ * @Controller(prefix="/orderCommentMake")
  * @Middleware(ValidateLoginMiddleware::class)
  *
  * @author Administrator

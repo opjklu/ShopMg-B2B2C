@@ -39,7 +39,7 @@ use Tool\AjaxReturn;
 
 /**
  * 开店支付
- * @Controller(perfix="/openShopPay")
+ * @Controller(prefix="/openShopPay")
  *
  * @author Administrator
  */

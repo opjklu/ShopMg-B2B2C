@@ -19,7 +19,7 @@ use Validate\CheckParam;
  * 发票抬头
  *
  * @author Administrator
- * @Controller(perfix="invoicesAreRaised")
+ * @Controller(prefix="/invoicesAreRaised")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class InvoicesAreRaisedController

@@ -16,7 +16,7 @@ use Validate\CheckParam;
 
 /**
  * 收货地址
- * @Controller(perfix="balance")
+ * @Controller(prefix="/balance")
  * @Middleware(ValidateLoginMiddleware::class)
  */
 class BalanceController

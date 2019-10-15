@@ -29,29 +29,29 @@ return [
     'provider'     => require __DIR__ . DS . 'provider.php',
     'url_config' => require_once __DIR__ . DS . 'config.php',
     'origin' => [
-        'http://pcweb.local.cn:8089',
         'https://api.mch.weixin.qq.com',
         'https://openapi.alipay.com',
         'http://pcweb.local.com:8089',
+        'http://b2b2c.shopqorg.com'
     ],
-    'cookie_domain' => '.wq520wq.cn',
+    'cookie_domain' => '.local.com',
     //微信支付轮询查询是否支付成功
     'call_back_wx' => [
-        'http://pc.local.com/OrderMake/isCheckPay',
-        'http://pc.local.com/OrderPackageMake/isCheckPay',
-        'http://pc.local.com/IntegralOrders/isCheckPay',
-        'http://pc.local.com/OpenStoreSelect/isCheckPay',
-        'http://pc.local.com/BalanceRecharge/isCheckPay'
+        'http://pcapi.local.com/orderMake/isCheckPay',
+        'http://pcapi.local.com/orderPackageMake/isCheckPay',
+        'http://pcapi.local.com/integralOrders/isCheckPay',
+        'http://pcapi.local.com/openStoreSelect/isCheckPay',
+        'http://pcapi.local.com/balanceRecharge/isCheckPay'
     ],
     
     'local_ip' => '118.89.34.82',
     
-    'MAIL_SUBJECT' => '沪上理想空间网络：邮箱验证',
+    'MAIL_SUBJECT' => '上海米糕网络科技有限公司：邮箱验证',
     // 配置邮件发送服务器
     'MAIL_HOST' =>'smtp.126.com',//smtp服务器的名称
     'MAIL_SMTPAUTH' =>TRUE, //启用smtp认证
     'MAIL_USERNAME' =>'',//你的邮箱名
-    'MAIL_FROM' =>'@126.com',//发件人地址
+    'MAIL_FROM' =>'',//发件人地址
     'MAIL_FROMNAME'=>'',//发件人姓名
     'MAIL_PASSWORD' =>'',//邮箱密码
     'MAIL_CHARSET' =>'utf-8',//设置邮件编码

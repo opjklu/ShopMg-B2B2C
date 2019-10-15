@@ -45,27 +45,3 @@
 >> **旨在为客户带来新零售、o2o、b2c、b2b2c、s2b2c、f2b2c、批发等其他的解决方案，为客户拓宽销售渠道，提高收益**
 
 >>  如有需要请加QQ 1968637674 
-
----
-
-### 运行教程
-
-- 所需环境
-
->> php版本建议用PHP-7.3 
-
->> swoole 版本   4.2.8 <= swoole < 4.4 __后期会调整__
-
->> mysql  5.7 或 8.0 （__8.0以上需要改变认证方式__）
-
->> redis
-
-- 操作步骤
-  
->> 新建数据库 并导入数据 
-
->> 在config/properties目录下的db.php 配置好数据库
-
->>  执行composer install，composer update
-
->> 运行命令 php bin/shopmg start -d

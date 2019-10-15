@@ -69,3 +69,7 @@
 >>  执行composer install，composer update
 
 >> 运行命令 php bin/shopmg start -d
+
+- 文档
+
+>>  http://wiki.shopqorg.com/
